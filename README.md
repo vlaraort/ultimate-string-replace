@@ -41,3 +41,6 @@ const response = ultimateStringReplace(data, "rème brûlée", {'wrap_preffix': 
 
 ultimate-string-replace is written as an ES6 module, but it also gets transpiled to ES5.
 
+## Contributing
+
+PR Welcome!
