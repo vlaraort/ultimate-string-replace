@@ -1,6 +1,6 @@
 {
   "name": "ultimate-string-replace",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "JS module to improve string.prototype.replace",
   "main": "./build/bundle.js",
   "module": "ultimate-string-replace.js",
