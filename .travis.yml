@@ -9,13 +9,10 @@ node_js:
   - '9'
   - '8'
   - '6'
-script:
-  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
-  - codecov
-install:
-  - npm install -g codecov
 after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
+  - npm run coverage:ci
+  - npm run travis-deploy-once 
+  - npm run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
