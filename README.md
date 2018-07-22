@@ -2,16 +2,14 @@
 
 Helper to allow to find and wrap matches in a string.
 It's main purpose is to be used in filters of objects, so you can highlight matches.
-If the string has accents, ultimate-string-replacer will get rid of them and match anyway.
+If the string has accents, ultimate-string-replace will get rid of them and match anyway.
 If the string to match has accents, it will only match exact matches (case-insensitive)
 
 ## Install
 
-`npm i -S ultimate-string-replacer`
+`npm i -S ultimate-string-replace`
 
-## Usages
-
-What things you need to install the software and how to install them
+## Usage
 
 ```
 import ultimateStringReplace from 'ultimate-string-replace';
