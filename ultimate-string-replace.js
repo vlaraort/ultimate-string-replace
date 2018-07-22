@@ -1,6 +1,8 @@
 const addSpacesAccents = (str) => {
   const array = [...str.normalize('NFD')];
+  //const regString = [...array].map((e, i) => (i < array.length ? [e, '\\s*[\\u0300-\\u036f]*'] : [e])).reduce((a, b) => a.concat(b)).join('');
   const regString = [...array].map((e, i) => (i < array.length ? [e, '\\s*[\\u0300-\\u036f]*'] : [e])).reduce((a, b) => a.concat(b)).join('');
+
   return new RegExp(regString, 'gi');
 };
 

@@ -1,5 +1,7 @@
 # ultimate-string-replace
 
+[![Build Status](https://travis-ci.org/vlaraort/ultimate-string-replace.svg?branch=master)](https://travis-ci.org/vlaraort/ultimate-string-replace)
+
 Helper to allow to find and wrap matches in a string.
 
 It's main purpose is to be used in filters of objects, so you can highlight matches.

@@ -3,3 +3,5 @@
 .gitignoreç
 .babelrc
 webpack.config.json
+.nyc_output
+/coverage

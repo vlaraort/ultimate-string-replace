@@ -6,11 +6,12 @@
   "module": "ultimate-string-replace.js",
   "scripts": {
     "build": "webpack",
-    "test": "mocha --compilers js:babel-core/register",
+    "test": "nyc mocha --compilers js:babel-core/register",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "coverage:html": "nyc report --reporter=html"
   },
   "author": "Víctor Lara Ortega <victorlara@outlook.com>",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "eslint-plugin-import": "^2.13.0",
     "husky": "^1.0.0-rc.13",
     "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
     "script-loader": "^0.7.2",
     "semantic-release": "^15.8.1",
     "travis-deploy-once": "^5.0.1",
