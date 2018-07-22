@@ -1,6 +1,7 @@
 # ultimate-string-replace
 
 [![Build Status](https://travis-ci.org/vlaraort/ultimate-string-replace.svg?branch=master)](https://travis-ci.org/vlaraort/ultimate-string-replace)
+[![Code Coverage](https://codecov.io/gh/vlaraort/ultimate-string-replace/branch/master/graph/badge.svg)](coverage)
 
 Helper to allow to find and wrap matches in a string.
 
