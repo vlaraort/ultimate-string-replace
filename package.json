@@ -1,6 +1,6 @@
 {
   "name": "ultimate-string-replace",
-  "version": "1.0.1",
+  "version": "0.0.0-development",
   "description": "JS module to improve string.prototype.replace",
   "main": "./build/bundle.js",
   "module": "ultimate-string-replace.js",
@@ -8,7 +8,9 @@
     "build": "webpack",
     "test": "mocha --compilers js:babel-core/register",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "author": "Víctor Lara Ortega <victorlara@outlook.com>",
   "license": "ISC",
@@ -22,11 +24,17 @@
     "husky": "^1.0.0-rc.13",
     "mocha": "^5.2.0",
     "script-loader": "^0.7.2",
-    "webpack": "^3.10.0"
+    "semantic-release": "^15.8.1",
+    "webpack": "^3.10.0",
+    "travis-deploy-once": "^5.0.1"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm build && npm test"
+      "pre-push": "npm run build && npm run lint && npm run test"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vlaraort/ultimate-string-replace.git"
   }
 }
