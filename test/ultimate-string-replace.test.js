@@ -62,4 +62,8 @@ describe('string-replace', () => {
     });
     expect(response).to.equal(false);
   });
+
+  it('should throw an error if not all the parameters are filled', () => {
+    expect(ultimateStringReplace).to.throw(Error);
+  });
 });
