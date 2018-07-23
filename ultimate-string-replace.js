@@ -14,6 +14,8 @@ const addSpacesAccents = str => {
  * @param  {} {opts} wrap_suffix and wrap_preffix, the suffix and preffix to append
  */
 export default function(string, matcher, opts) {
+  if (!string || !matcher || !opts)
+    throw new Error('Some parameters are missing');
   let coincidence = false;
   const re = addSpacesAccents(matcher);
   const normalizedString = string.normalize('NFD').replace(re, match => {

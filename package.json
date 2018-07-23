@@ -6,7 +6,7 @@
   "module": "ultimate-string-replace.js",
   "scripts": {
     "build": "webpack",
-    "test": "nyc mocha --compilers js:babel-core/register",
+    "test": "nyc mocha --require babel-core/register",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "travis-deploy-once": "travis-deploy-once",
