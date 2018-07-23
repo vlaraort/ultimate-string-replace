@@ -22,6 +22,5 @@ export default function(string, matcher, opts) {
     coincidence = true;
     return `${opts.wrap_preffix}${match}${opts.wrap_suffix}`;
   });
-
   return coincidence ? normalizedString : false;
 }
