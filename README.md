@@ -6,7 +6,7 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![dependencies](https://david-dm.org/vlaraort/ultimate-string-replace.svg)](https://david-dm.org/vlaraort/ultimate-string-replace)
 
-Helper to allow to find and wrap matches in a string.
+Javascript library to allow to find and wrap matches in a string.
 
 It's main purpose is to be used in filters of objects, so you can highlight matches.
 
@@ -36,6 +36,7 @@ const response = ultimateStringReplace(data, "rème brûlée", {'wrap_preffix': 
 | `23`  | `12 34`  | `1<b>2 3</b>4`  |
 | `rème brûlée`  | `Crème brûlée`  | `C<b>rème brûlée</b>`  |
 | `ví`  | `Víctor victor Victor`  | `<b>Ví</b>ctor victor Victor`  |
+| `vi`  | `Víctor victor Victor`  | `<b>Ví</b>ctor <b>vi</b>ctor <b>Vi<b>ctor`  |
 | `Ví`  | `Víctor victor Victor`  | `<b>Ví</b>ctor victor Victor`  |
 | `no`  | `Víctor victor Victor`  | `false`  |
 
