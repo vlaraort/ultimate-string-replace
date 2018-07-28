@@ -19,6 +19,10 @@ If the string to match has accents, it will only match exact matches (case-insen
 
 `npm i -S ultimate-string-replace`
 
+ultimate-string-replace is also published in bower
+
+`bower install ultimate-string-replace`
+
 ## Usage
 
 ```
