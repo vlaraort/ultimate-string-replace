@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { it, describe } from 'mocha';
-import ultimateStringReplace from '../ultimate-string-replace';
+import ultimateStringReplace from '../src/ultimate-string-replace';
 
 describe('string-replace', () => {
   it('should wrap case - insensitive', () => {

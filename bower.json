@@ -1,0 +1,22 @@
+{
+  "name": "ultimate-string-replace",
+  "description": "JS module to improve string.prototype.replace",
+  "main": "./build/bundle.js",
+  "authors": [
+    "Víctor Lara Ortega <victorlara@outlook.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "string",
+    "es6",
+    "replace"
+  ],
+  "homepage": "https://github.com/vlaraort/ultimate-string-replace",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
