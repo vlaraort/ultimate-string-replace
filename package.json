@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "JS module to improve string.prototype.replace",
   "main": "./build/bundle.js",
-  "module": "ultimate-string-replace.js",
+  "module": "/src/ultimate-string-replace.js",
   "scripts": {
     "build": "webpack",
     "test": "nyc mocha --require babel-core/register",
@@ -16,7 +16,7 @@
     "coverage:codecov": "codecov"
   },
   "author": "Víctor Lara Ortega <victorlara@outlook.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
