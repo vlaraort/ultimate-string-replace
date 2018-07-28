@@ -15,7 +15,7 @@
     "coverage:html": "nyc report --reporter=lcovonly",
     "coverage:codecov": "codecov",
     "greenkeeper-lockfile-update": "greenkeeper-lockfile-update",
-    "greenkeeper-lockfile-upload" : "greenkeeper-lockfile-upload"
+    "greenkeeper-lockfile-upload": "greenkeeper-lockfile-upload"
   },
   "author": "Víctor Lara Ortega <victorlara@outlook.com>",
   "license": "MIT",
