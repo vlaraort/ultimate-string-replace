@@ -8,7 +8,7 @@ describe('string-replace', () => {
     const response = ultimateStringReplace(data, 'he', {
       wrap: true,
       wrap_preffix: '<b>',
-      wrap_suffix: '</b>',
+      wrap_sufix: '</b>',
     });
     expect(response).to.equal('<b>He</b>llo <b>he</b>llo');
   });
@@ -18,7 +18,7 @@ describe('string-replace', () => {
     const response = ultimateStringReplace(data, '23', {
       wrap: true,
       wrap_preffix: '<b>',
-      wrap_suffix: '</b>',
+      wrap_sufix: '</b>',
     });
     expect(response).to.equal('1<b>2 3</b>4');
   });
@@ -28,7 +28,7 @@ describe('string-replace', () => {
     const response = ultimateStringReplace(data, 'rème brûlée', {
       wrap: true,
       wrap_preffix: '<b>',
-      wrap_suffix: '</b>',
+      wrap_sufix: '</b>',
     });
     expect(response).to.equal('C<b>rème brûlée</b>');
   });
@@ -38,7 +38,7 @@ describe('string-replace', () => {
     const response = ultimateStringReplace(data, 'ví', {
       wrap: true,
       wrap_preffix: '<b>',
-      wrap_suffix: '</b>',
+      wrap_sufix: '</b>',
     });
     expect(response).to.equal('<b>Ví</b>ctor victor Victor');
   });
@@ -48,7 +48,7 @@ describe('string-replace', () => {
     const response = ultimateStringReplace(data, 'Ví', {
       wrap: true,
       wrap_preffix: '<b>',
-      wrap_suffix: '</b>',
+      wrap_sufix: '</b>',
     });
     expect(response).to.equal('<b>Ví</b>ctor victor Victor');
   });
@@ -58,7 +58,7 @@ describe('string-replace', () => {
     const response = ultimateStringReplace(data, 'no', {
       wrap: true,
       wrap_preffix: '<b>',
-      wrap_suffix: '</b>',
+      wrap_sufix: '</b>',
     });
     expect(response).to.equal(false);
   });

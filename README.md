@@ -25,7 +25,7 @@ If the string to match has accents, it will only match exact matches (case-insen
 import ultimateStringReplace from 'ultimate-string-replace';
 
 const data = "Crème brûlée"
-const response = ultimateStringReplace(data, "rème brûlée", {'wrap_preffix': "<b>", 'wrap_suffix': "</b>" })
+const response = ultimateStringReplace(data, "rème brûlée", {'wrap_preffix': "<b>", 'wrap_sufix': "</b>" })
 // Result -> 'C<b>rème brûlée</b>';
 ```
 ## Examples of matches

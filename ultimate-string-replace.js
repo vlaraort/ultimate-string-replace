@@ -11,7 +11,7 @@ const addSpacesAccents = str => {
 /**
  * @param  {} string String with the original value
  * @param  {} matcher string with the letters to replace
- * @param  {} {opts} wrap_suffix and wrap_preffix, the suffix and preffix to append
+ * @param  {} {opts} wrap_sufix and wrap_prefix, the sufix and preffix to append
  */
 export default function(string, matcher, opts) {
   if (!string || !matcher || !opts)
@@ -20,7 +20,7 @@ export default function(string, matcher, opts) {
   const re = addSpacesAccents(matcher);
   const normalizedString = string.normalize('NFD').replace(re, match => {
     coincidence = true;
-    return `${opts.wrap_preffix}${match}${opts.wrap_suffix}`;
+    return `${opts.wrap_preffix}${match}${opts.wrap_sufix}`;
   });
   return coincidence ? normalizedString : false;
 }
