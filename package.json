@@ -13,7 +13,9 @@
     "semantic-release": "semantic-release",
     "coverage:ci": "npm run coverage:html && npm run coverage:codecov",
     "coverage:html": "nyc report --reporter=lcovonly",
-    "coverage:codecov": "codecov"
+    "coverage:codecov": "codecov",
+    "greenkeeper-lockfile-update": "greenkeeper-lockfile-update",
+    "greenkeeper-lockfile-upload" : "greenkeeper-lockfile-upload"
   },
   "author": "Víctor Lara Ortega <victorlara@outlook.com>",
   "license": "MIT",
@@ -27,6 +29,7 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-prettier": "^2.6.2",
+    "greenkeeper-lockfile": "^1.15.1",
     "husky": "^1.0.0-rc.13",
     "mocha": "^5.2.0",
     "nyc": "^12.0.2",

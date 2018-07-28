@@ -9,6 +9,9 @@ node_js:
   - '9'
   - '8'
   - '6'
+install: npm install
+before_script: npm run greenkeeper-lockfile-update
+after_script: npm run greenkeeper-lockfile-upload
 after_success:
   - npm run coverage:ci
   - npm run travis-deploy-once 
