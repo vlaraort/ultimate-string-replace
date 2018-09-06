@@ -61,4 +61,4 @@ ultimate-string-replace is written as an ES6 module, but it also gets transpiled
 
 ## Contributing
 
-PR Welcome!
+PR Welcome! 
