@@ -47,5 +47,11 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:vlaraort/ultimate-string-replace.git"
+  },
+  "nyc": {
+    "exclude": [
+      "src/polyfills/*.js"
+    ]
   }
+  
 }

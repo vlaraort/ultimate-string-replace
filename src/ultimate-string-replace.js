@@ -1,5 +1,7 @@
+import './polyfills/normalize.js';
+
 const addSpacesAccents = str => {
-  const array = [...str.normalize('NFD')];
+  const array = str.normalize('NFD').split('');
   /* istanbul ignore next: Ternary operators don't work in coverage */
   const regString = [...array]
     .map((e, i) => (i < array.length ? [e, '\\s*[\\u0300-\\u036f]*'] : [e]))
