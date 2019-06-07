@@ -33,7 +33,7 @@
     "husky": "^1.0.0-rc.13",
     "mocha": "^5.2.0",
     "nyc": "^12.0.2",
-    "prettier": "^1.13.7",
+    "prettier": "^1.18.2",
     "script-loader": "^0.7.2",
     "semantic-release": "^15.8.1",
     "travis-deploy-once": "^5.0.1",
