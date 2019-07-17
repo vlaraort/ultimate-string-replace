@@ -37,7 +37,7 @@
     "script-loader": "^0.7.2",
     "semantic-release": "^15.8.1",
     "travis-deploy-once": "^5.0.1",
-    "webpack": "^4.16.3"
+    "webpack": "^4.36.1"
   },
   "husky": {
     "hooks": {
