@@ -28,7 +28,7 @@
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-config-prettier": "^3.0.0",
     "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-prettier": "^3.1.2",
     "greenkeeper-lockfile": "^1.15.1",
     "husky": "^1.0.0-rc.13",
     "mocha": "^5.2.0",
