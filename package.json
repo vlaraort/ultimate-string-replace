@@ -35,7 +35,7 @@
     "nyc": "^12.0.2",
     "prettier": "^1.13.7",
     "script-loader": "^0.7.2",
-    "semantic-release": "^15.8.1",
+    "semantic-release": "^17.0.5",
     "travis-deploy-once": "^5.0.1",
     "webpack": "^4.16.3"
   },
